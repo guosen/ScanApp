@@ -1,0 +1,33 @@
+{
+  "identifier" : "ClearScanStore",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "clearscan_pro",
+      "localizations" : [
+        {
+          "description" : "Advanced enhancement and PDF options",
+          "displayName" : "ClearScan Pro",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.clearscan.app.pro",
+      "referenceName" : "ClearScan Pro",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

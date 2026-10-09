@@ -1,0 +1,22 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "ClearScan" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ClearScan"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ClearScan"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
