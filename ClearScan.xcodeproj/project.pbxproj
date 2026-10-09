@@ -1,0 +1,102 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2AEE538B1BE41E784F03A5F /* ClearScanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13414457A5445FF82C29EDD /* ClearScanApp.swift */; };
+		DEFBFC8470E74734A05C3378 /* DocumentMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB34C20F131147B593E7C48B /* DocumentMetadata.swift */; };
+		7DA0205D1E6E458C9FC39828 /* DocumentRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79990639FACF4BC39646AF61 /* DocumentRepository.swift */; };
+		6AAED16384B148AFB638AEF9 /* FileStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815062AE807D4474807E07CC /* FileStorage.swift */; };
+		F414C38C86E44829853C3502 /* DocumentPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E74602E55B4A8B9D73D2B9 /* DocumentPreviewView.swift */; };
+		9386081C60264DF2A6552C0D /* ExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AAF6E06A6D4FFCBEF01F41 /* ExportView.swift */; };
+		376C831032BF488382E948FA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE5E3015BD449097A1237C /* HomeView.swift */; };
+		758C81D2509A42DD833B2082 /* PageEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8BF0A1BEB54EFBA1A2A711 /* PageEditorView.swift */; };
+		591CD651435745E8A57A383E /* DocumentScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BF76C796D243398142341D /* DocumentScannerView.swift */; };
+		F96541A8735646CE8695F7F9 /* ScanCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C305F3DA087D4D7AA849A8CC /* ScanCoordinator.swift */; };
+		B0C27010EA55436890B3EBB1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB09FB27CD2442889953EBB /* SettingsView.swift */; };
+		965C282D3D674138AEB7433F /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABFD34D8EFB483288531B70 /* ImageProcessor.swift */; };
+		C3D0B04CA4A74A248E68DEB1 /* PDFExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2FA64B13F4F3BB2A4E0B1 /* PDFExporter.swift */; };
+		99D594838E284068BB135CAA /* PurchaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4469A50E7A6423E9AF627B1 /* PurchaseService.swift */; };
+		3FE14244BDB94ED3A692ED49 /* ScannerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA29398D2CAD4A2D8CCA6E59 /* ScannerService.swift */; };
+		C66665F4F11A4B22950CB4EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD94ED979F9466F96DCA153 /* Assets.xcassets */; };
+		415BE55C00014217BF9344F9 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 884DC6DBEFC14739AB4C9C13 /* Localizable.xcstrings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2EE73361F8874B5EA76EB030 /* ClearScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClearScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C13414457A5445FF82C29EDD /* ClearScanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearScanApp.swift; sourceTree = "<group>"; };
+		CB34C20F131147B593E7C48B /* DocumentMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentMetadata.swift; sourceTree = "<group>"; };
+		79990639FACF4BC39646AF61 /* DocumentRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentRepository.swift; sourceTree = "<group>"; };
+		815062AE807D4474807E07CC /* FileStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStorage.swift; sourceTree = "<group>"; };
+		68E74602E55B4A8B9D73D2B9 /* DocumentPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPreviewView.swift; sourceTree = "<group>"; };
+		93AAF6E06A6D4FFCBEF01F41 /* ExportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportView.swift; sourceTree = "<group>"; };
+		7BCE5E3015BD449097A1237C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CD8BF0A1BEB54EFBA1A2A711 /* PageEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageEditorView.swift; sourceTree = "<group>"; };
+		58BF76C796D243398142341D /* DocumentScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentScannerView.swift; sourceTree = "<group>"; };
+		C305F3DA087D4D7AA849A8CC /* ScanCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanCoordinator.swift; sourceTree = "<group>"; };
+		0CB09FB27CD2442889953EBB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		BABFD34D8EFB483288531B70 /* ImageProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
+		5CB2FA64B13F4F3BB2A4E0B1 /* PDFExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFExporter.swift; sourceTree = "<group>"; };
+		A4469A50E7A6423E9AF627B1 /* PurchaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseService.swift; sourceTree = "<group>"; };
+		EA29398D2CAD4A2D8CCA6E59 /* ScannerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerService.swift; sourceTree = "<group>"; };
+		ECD94ED979F9466F96DCA153 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		884DC6DBEFC14739AB4C9C13 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		B76FE49BA2DA4B788349A5F9 /* ClearScan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ClearScan.entitlements; sourceTree = "<group>"; };
+		E7A74BE6C0494F0C924FA49E /* Products.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Products.storekit; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B71E7E5D21CD4FCDAA65254B /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D75B04FC1C545BFB680810B = {isa = PBXGroup; children = (2FFEF77F2FFD40F3967BB8A7 /* ClearScan */, 3A39048F943A426A93758DFE /* Products */); sourceTree = "<group>"; };
+		3A39048F943A426A93758DFE /* Products */ = {isa = PBXGroup; children = (2EE73361F8874B5EA76EB030 /* ClearScan.app */); name = Products; sourceTree = "<group>"; };
+		F7CB12671D304FA189BE3520 /* DocumentPreview */ = {isa = PBXGroup; children = (68E74602E55B4A8B9D73D2B9 /* DocumentPreviewView.swift */); path = DocumentPreview; sourceTree = "<group>"; };
+		BD3EB83028774F94A246BAD7 /* Export */ = {isa = PBXGroup; children = (93AAF6E06A6D4FFCBEF01F41 /* ExportView.swift */); path = Export; sourceTree = "<group>"; };
+		58368D28759A45E5BD701371 /* Home */ = {isa = PBXGroup; children = (7BCE5E3015BD449097A1237C /* HomeView.swift */); path = Home; sourceTree = "<group>"; };
+		B832003711DE411FAC41041A /* PageEditor */ = {isa = PBXGroup; children = (CD8BF0A1BEB54EFBA1A2A711 /* PageEditorView.swift */); path = PageEditor; sourceTree = "<group>"; };
+		691E825D3A8C484D98C7EE85 /* Scanner */ = {isa = PBXGroup; children = (58BF76C796D243398142341D /* DocumentScannerView.swift */, C305F3DA087D4D7AA849A8CC /* ScanCoordinator.swift */); path = Scanner; sourceTree = "<group>"; };
+		F4E2130F33A74BC5AF15D792 /* Settings */ = {isa = PBXGroup; children = (0CB09FB27CD2442889953EBB /* SettingsView.swift */); path = Settings; sourceTree = "<group>"; };
+		B18C876B0DF34218BD10B60B /* App */ = {isa = PBXGroup; children = (C13414457A5445FF82C29EDD /* ClearScanApp.swift */); path = App; sourceTree = "<group>"; };
+		804E87C655D348D2B5FEBE36 /* Configuration */ = {isa = PBXGroup; children = (E7A74BE6C0494F0C924FA49E /* Products.storekit */); path = Configuration; sourceTree = "<group>"; };
+		819F45ED29014CCCA33ACFDF /* Data */ = {isa = PBXGroup; children = (CB34C20F131147B593E7C48B /* DocumentMetadata.swift */, 79990639FACF4BC39646AF61 /* DocumentRepository.swift */, 815062AE807D4474807E07CC /* FileStorage.swift */); path = Data; sourceTree = "<group>"; };
+		185FBF1E5AF04840806BF5F9 /* Features */ = {isa = PBXGroup; children = (F7CB12671D304FA189BE3520 /* DocumentPreview */, BD3EB83028774F94A246BAD7 /* Export */, 58368D28759A45E5BD701371 /* Home */, B832003711DE411FAC41041A /* PageEditor */, 691E825D3A8C484D98C7EE85 /* Scanner */, F4E2130F33A74BC5AF15D792 /* Settings */); path = Features; sourceTree = "<group>"; };
+		5713D02A8479411984DBD53D /* Resources */ = {isa = PBXGroup; children = (ECD94ED979F9466F96DCA153 /* Assets.xcassets */, 884DC6DBEFC14739AB4C9C13 /* Localizable.xcstrings */); path = Resources; sourceTree = "<group>"; };
+		A45F233304CB421A8B09C031 /* Services */ = {isa = PBXGroup; children = (BABFD34D8EFB483288531B70 /* ImageProcessor.swift */, 5CB2FA64B13F4F3BB2A4E0B1 /* PDFExporter.swift */, A4469A50E7A6423E9AF627B1 /* PurchaseService.swift */, EA29398D2CAD4A2D8CCA6E59 /* ScannerService.swift */); path = Services; sourceTree = "<group>"; };
+		2FFEF77F2FFD40F3967BB8A7 /* ClearScan */ = {isa = PBXGroup; children = (B18C876B0DF34218BD10B60B /* App */, B76FE49BA2DA4B788349A5F9 /* ClearScan.entitlements */, 804E87C655D348D2B5FEBE36 /* Configuration */, 819F45ED29014CCCA33ACFDF /* Data */, 185FBF1E5AF04840806BF5F9 /* Features */, 5713D02A8479411984DBD53D /* Resources */, A45F233304CB421A8B09C031 /* Services */); path = ClearScan; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF089BC347C64659B635D4C9 /* ClearScan */ = {isa = PBXNativeTarget; buildConfigurationList = 063D2D6F4DC348B291E0B542; buildPhases = (DBBFAA988198492F8D981E37 /* Sources */, B71E7E5D21CD4FCDAA65254B /* Frameworks */, 29DB8898910043F3804231F6 /* Resources */); buildRules = (); dependencies = (); name = ClearScan; productName = ClearScan; productReference = 2EE73361F8874B5EA76EB030; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D590D2CF25AB4B0C84756A29 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 1500; LastUpgradeCheck = 1500;}; buildConfigurationList = ECE4B6696176440A85D3A038; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = 5D75B04FC1C545BFB680810B; productRefGroup = 3A39048F943A426A93758DFE; projectDirPath = ""; projectRoot = ""; targets = (AF089BC347C64659B635D4C9); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29DB8898910043F3804231F6 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (C66665F4F11A4B22950CB4EB /* Assets.xcassets in Resources */, 415BE55C00014217BF9344F9 /* Localizable.xcstrings in Resources */); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBBFAA988198492F8D981E37 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (B2AEE538B1BE41E784F03A5F /* ClearScanApp.swift in Sources */, DEFBFC8470E74734A05C3378 /* DocumentMetadata.swift in Sources */, 7DA0205D1E6E458C9FC39828 /* DocumentRepository.swift in Sources */, 6AAED16384B148AFB638AEF9 /* FileStorage.swift in Sources */, F414C38C86E44829853C3502 /* DocumentPreviewView.swift in Sources */, 9386081C60264DF2A6552C0D /* ExportView.swift in Sources */, 376C831032BF488382E948FA /* HomeView.swift in Sources */, 758C81D2509A42DD833B2082 /* PageEditorView.swift in Sources */, 591CD651435745E8A57A383E /* DocumentScannerView.swift in Sources */, F96541A8735646CE8695F7F9 /* ScanCoordinator.swift in Sources */, B0C27010EA55436890B3EBB1 /* SettingsView.swift in Sources */, 965C282D3D674138AEB7433F /* ImageProcessor.swift in Sources */, C3D0B04CA4A74A248E68DEB1 /* PDFExporter.swift in Sources */, 99D594838E284068BB135CAA /* PurchaseService.swift in Sources */, 3FE14244BDB94ED3A692ED49 /* ScannerService.swift in Sources */); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A3B4B7714CB547F5A08136A3 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = dwarf; GCC_OPTIMIZATION_LEVEL = 0; ONLY_ACTIVE_ARCH = YES; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; SWIFT_VERSION = 5.0;}; name = Debug;}
+		82899AAF1FD84758ABB33DD7 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = dwarf; SWIFT_COMPILATION_MODE = wholemodule; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; SWIFT_VERSION = 5.0;}; name = Release;}
+		28F65877D0A64806AA2740FB /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor; CODE_SIGN_ENTITLEMENTS = ClearScan/ClearScan.entitlements; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; ENABLE_PREVIEWS = YES; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_NSCameraUsageDescription = "ClearScan uses the camera to scan documents into PDF."; INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "ClearScan can import photos to add pages to your scan."; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks"); MARKETING_VERSION = 1.0.0; PRODUCT_BUNDLE_IDENTIFIER = com.clearscan.app; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; TARGETED_DEVICE_FAMILY = 1;}; name = Debug;}
+		1983A08C27B24E9CA2343927 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor; CODE_SIGN_ENTITLEMENTS = ClearScan/ClearScan.entitlements; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; ENABLE_PREVIEWS = YES; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_NSCameraUsageDescription = "ClearScan uses the camera to scan documents into PDF."; INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "ClearScan can import photos to add pages to your scan."; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks"); MARKETING_VERSION = 1.0.0; PRODUCT_BUNDLE_IDENTIFIER = com.clearscan.app; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; TARGETED_DEVICE_FAMILY = 1;}; name = Release;}
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECE4B6696176440A85D3A038 = {isa = XCConfigurationList; buildConfigurations = (A3B4B7714CB547F5A08136A3 /* Debug */, 82899AAF1FD84758ABB33DD7 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+		063D2D6F4DC348B291E0B542 = {isa = XCConfigurationList; buildConfigurations = (28F65877D0A64806AA2740FB /* Debug */, 1983A08C27B24E9CA2343927 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+/* End XCConfigurationList section */
+	};
+	rootObject = D590D2CF25AB4B0C84756A29;
+}
